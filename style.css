@@ -8,6 +8,11 @@ nav{
     box-shadow: 0 0 32px rgba(0,0,0,.15)
     ;
 }
+
+ul{
+    list-style: none;
+}
+
 p {
   margin: 0;
   word-spacing: 2px;
@@ -183,4 +188,87 @@ nav li i{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.funding-section ul{
+    padding-left: 0;
+}
+
+.funding-section ul a{
+    color: #f42;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.funding-section li{
+    margin-bottom: 10px;
+}
+
+.funding-count li{
+    background-color: #ffebe8;
+    height: 254px;
+    
+}
+
+.fund-header {
+    background-color: #f42;
+    height: 43px;
+    color: #fff;
+    text-align: left;
+    
+}
+
+.fund-header h1{
+    padding-top: 8px;
+    padding-left: 72px;
+}
+
+.fund-sub-header {
+    height: 43px;
+    color: #000;
+    padding-left: 70px;
+    text-align: left;
+}
+
+.fund-sub-header h5{
+    margin-top: -14px;
+    margin-right: 92px;
+    color: #b1aaaa;
+    font-weight: 300;
+}
+
+.fund-more-details{
+    background-color: #fffaf8;
+    text-align: left;
+    height: 146px;
+}
+
+.fund-more-details  i{
+    padding: 12px
+}
+
+.fund-more-details  span{
+    font-size: 13px;
+}
+
+.fund-more-details hr{
+    background-color: rgba(255,68,34,.25);
+    border-color: rgba(255,68,34,.25);
+}
+
+.fund-more-details p{
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.funding-count img{
+    height: 60px;
+    position: absolute;
+    left: 16px;
+    margin-top: 20px;
+}
+
+.most-populars {
+    background-image: url();
 }
