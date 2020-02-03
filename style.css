@@ -112,6 +112,9 @@ nav li i {
   margin-bottom: 20px;
   color: #fff;
 }
+.desktopNavigationSectionTwo{
+    display: none;
+}
 
 .articleTitle {
   font-size: 20px;
@@ -406,6 +409,13 @@ nav li i {
 
 /* ==== Media queries ==== */
 @media (max-width: 1023px) and (min-width: 768px){
+
+    .menuDesktopContainer{
+        width: 100%;
+    }
+    nav ul {
+        border-top: none;
+    }
     nav li:last-of-type{
         display: none;
     }
@@ -420,7 +430,31 @@ nav li i {
         color: #fff;
         width: 100%;
         height: 25px;
+        padding: 5px
     }
+    .desktopNavigationSectionTwo{
+        display: block;
+    }
+
+    .desktopNavigationSectionTwo > ul > li{
+        display: block;
+        font-family: Shentox,sans-serif;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #aaa;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
+    .desktop-navigation > ul > li {
+      display: block;
+      margin-right: 10px;
+      border-left: none;
+      font-size: 15px;
+      font-weight: 500;
+      color: #555;
+    } 
+    
 
     nav .logo {
         height: 70px;
@@ -432,7 +466,18 @@ nav li i {
 
     nav li:nth-child(1){
         display: inherit;
+        width: 100%;
+
+    }
+    #firstLiNavTwo{
+       width: unset; 
+       margin-left: 10px;
+
+    }
+    #firstLiNav{
         width: unset;
+        margin-left: 10px;
+        color: #fff;
     }
     nav li:nth-child(2) {
         margin-left: unset;
