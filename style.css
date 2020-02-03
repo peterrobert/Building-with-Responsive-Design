@@ -37,6 +37,10 @@ footer {
   margin-top: 20px;
 }
 
+.desktop-navigation {
+    display: none;
+}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -45,16 +49,20 @@ nav ul {
   border-top: 1px solid #eee;
 }
 
-nav li:first-child {
+nav .logo {
   background-color: red;
   height: 48px;
   width: 106px;
   text-align: center;
 }
 
-nav li:first-child img {
+nav  .logo img {
   height: 15px;
   margin-top: 15px;
+}
+
+nav li:nth-child(2) i{
+    display: block;
 }
 
 nav li:nth-child(2) {
@@ -393,4 +401,43 @@ nav li i {
 }
 .footerSectionTwo img {
   height: 9px;
+}
+
+
+/* ==== Media queries ==== */
+@media (max-width: 1023px) and (min-width: 768px){
+    nav li:last-of-type{
+        display: none;
+    }
+
+    nav li:nth-child(2) i{
+        display: none;
+    }
+
+    .desktop-navigation {
+        display: block;
+        background-color: #000;
+        color: #fff;
+        width: 100%;
+        height: 25px;
+    }
+
+    nav .logo {
+        height: 70px;
+    }
+
+    nav .logo img {
+        margin-top: 28px;
+    }
+
+    nav li:nth-child(1){
+        display: inherit;
+        width: unset;
+    }
+    nav li:nth-child(2) {
+        margin-left: unset;
+    }
+    nav li:nth-child(3){
+        margin-left: unset;
+    }
 }
