@@ -82,6 +82,8 @@ nav li i{
     margin-left: 10px;
     margin-right: 10px;
     height: 180px;
+    box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.5);
+
 }
 
 .image-1{
