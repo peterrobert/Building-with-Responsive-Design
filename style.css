@@ -1,6 +1,23 @@
+@font-face {
+  font-family: Shentox;
+  src: url("fonts/Shentox.7z");
+}
+
 body {
   margin: 0;
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+}
+
+header{
+ position: fixed;
+ top: 0;
+ width: 100%;
+ background: #fff;
+ z-index: 9999;
+}
+
+main{
+  margin-top: 90px;
 }
 
 nav {
@@ -16,9 +33,8 @@ p {
   word-spacing: 2px;
 }
 
-@font-face {
-  font-family: Shentox;
-  src: url("fonts/Shentox.7z");
+footer{
+    margin-top: 20px;
 }
 
 nav ul {
@@ -317,4 +333,60 @@ nav li i {
   border-bottom: 1px solid #e0d4d4;
   padding-bottom: 10px;
   padding-top: 10px;
+}
+.lineThrough{ 
+  text-decoration: line-through;
+}
+.NoLineThrough{
+  text-decoration-style: none;
+}
+
+.footerSectionOne{
+ background-color: #131313;
+ text-align: center;
+ padding-top: 35px;
+ padding-bottom: 35px;
+}
+
+.footerSectionOne > ul{
+    display: inline-flex;
+    padding: 0;
+}
+
+.footerSocialinks > li > a {
+  text-decoration: none;
+  color: #fff;
+  margin: 10px;
+  border-radius: 50%;
+  background: #333;
+  height: 40px;
+  width: 40px;
+  padding: 10px  
+}
+
+.footerMenu > li > a {
+    text-decoration: none;
+    margin: 5px;
+    color: #aaa;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.footerSectionTwo{
+  background: #000;
+  color: #aaa;
+  font-size: 13px;
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.footerSectionTwo > div{
+    display: inline;
+}
+
+.footerSectionTwo b {
+  color: #f42;
+}
+.footerSectionTwo img {
+    height: 9px; 
 }
