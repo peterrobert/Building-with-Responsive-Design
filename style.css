@@ -54,6 +54,103 @@ nav ul {
   border-top: 1px solid #eee;
 }
 
+.latestImgContainer > img {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+}
+
+nav li i {
+  margin-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.funding-section li {
+  margin-bottom: 10px;
+}
+
+.funding-count li {
+  background-color: #ffebe8;
+  height: 254px;
+}
+
+.fund-header h1 {
+  padding-top: 8px;
+  padding-left: 72px;
+}
+
+.fund-more-details i {
+  padding: 12px;
+}
+
+.fund-more-details span {
+  font-size: 13px;
+}
+
+.fund-more-details hr {
+  background-color: rgba(255, 68, 34, 0.25);
+  border-color: rgba(255, 68, 34, 0.25);
+}
+
+.fund-more-details p {
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.funding-count img {
+  height: 60px;
+  position: absolute;
+  margin-top: 20px;
+}
+
+.image-sec article {
+  height: 180px;
+  display: table-cell;
+  vertical-align: bottom;
+  padding: 0 10px 0 10px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.latest-sec-details h4 {
+  color: #f42;
+}
+
+.latest-sec-details h5 {
+  color: #f42;
+}
+
+.latest-sec-img img {
+  height: 96px;
+  width: 96px;
+  object-fit: cover;
+  margin-top: 5px;
+}
+
+.pop-latest-sec ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.pop-latest-sec li {
+  border-bottom: 1px solid #e0d4d4;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.footerSectionTwo > div {
+  display: inline;
+}
+
+.footerSectionTwo b {
+  color: #f42;
+}
+
+.footerSectionTwo img {
+  height: 9px;
+}
+
 nav .logo {
   background-color: red;
   height: 48px;
@@ -68,6 +165,7 @@ nav .logo img {
 
 nav li:nth-child(2) i {
   display: block;
+  color: #555;
 }
 
 nav li:nth-child(2) {
@@ -77,68 +175,36 @@ nav li:nth-child(2) {
 }
 
 nav li:nth-child(3) {
-  margin-left: auto;
   font-size: 1rem;
   border-left: solid 1px #eee;
   margin-left: 0;
 }
 
-nav li:nth-child(2) i {
-  color: #555;
-}
-
 nav li:nth-child(3) i {
-  color: #ff4422;
-}
-
-nav li i {
-  margin-top: 15px;
-  padding-left: 10px;
-  padding-right: 10px;
+  color: #f42;
 }
 
 .topSubHeading {
-  font-family: Shentox;
+  font-family: Shentox, sans-serif;
+  font-size: 14px;
 }
 
 .image-sec article > p {
   margin: 2px;
 }
 
-.image-sec article > p:last-of-type {
-  font-size: 15px;
-  color: hsla(0, 0%, 100%, 0.6);
-  padding-bottom: 10px;
-}
-
 .articleTitle {
-  font-family: Avalon;
+  font-family: Avalon, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
 }
 
-.topSubHeading {
-  font-size: 14px;
-}
-
-.image-sec article {
-  height: 180px;
-  display: table-cell;
-  vertical-align: bottom;
-  padding: 0 10px 0 10px;
-  margin-bottom: 20px;
-  color: #fff;
-}
-
-.desk-top-logo{
+.desk-top-logo {
   display: none;
 }
 
 .desktopNavigationSectionTwo {
   display: none;
-}
-
-.articleTitle {
-  font-size: 20px;
-  font-weight: 700;
 }
 
 .disnone {
@@ -148,7 +214,7 @@ nav li i {
 .top-yellow-indicator {
   width: 100%;
   height: 30px;
-  background: #ffdd33;
+  background: #fd3;
   text-align: center;
   box-shadow: 0 16px 48px rgba(0, 0, 0, 0.15);
 }
@@ -179,34 +245,13 @@ nav li i {
   box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.5);
 }
 
-.latestNewsTitles > p:first-of-type {
-  font-size: 14px;
-  font-weight: 700;
-}
-
-.latestNewsTitles > p:last-of-type {
-  margin-top: 10px;
-  font-size: 12px;
-  color: #aaa;
-}
-
 .latestNewsTitles {
   flex: 1;
   margin-left: 10px;
 }
 
-.dotAter:after {
-  content: "\B7";
-}
-
 .latestImgContainer {
   display: inline-flex;
-}
-
-.latestImgContainer > img {
-  width: 75px;
-  height: 75px;
-  object-fit: cover;
 }
 
 .horizontalMargin {
@@ -235,8 +280,15 @@ nav li i {
   background-repeat: no-repeat;
 }
 
-.funding-section{
+.funding-section {
   padding-bottom: 20px;
+}
+
+.fund-header {
+  background-color: #f42;
+  height: 43px;
+  color: #fff;
+  text-align: left;
 }
 
 .funding-section ul {
@@ -248,28 +300,7 @@ nav li i {
   text-decoration: none;
   text-transform: capitalize;
   font-size: 14px;
-  font-family: Avalon;
-}
-
-.funding-section li {
-  margin-bottom: 10px;
-}
-
-.funding-count li {
-  background-color: #ffebe8;
-  height: 254px;
-}
-
-.fund-header {
-  background-color: #f42;
-  height: 43px;
-  color: #fff;
-  text-align: left;
-}
-
-.fund-header h1 {
-  padding-top: 8px;
-  padding-left: 72px;
+  font-family: Avalon, sans-serif;
 }
 
 .fund-sub-header {
@@ -289,30 +320,6 @@ nav li i {
   background-color: #fffaf8;
   text-align: left;
   height: 146px;
-}
-
-.fund-more-details i {
-  padding: 12px;
-}
-
-.fund-more-details span {
-  font-size: 13px;
-}
-
-.fund-more-details hr {
-  background-color: rgba(255, 68, 34, 0.25);
-  border-color: rgba(255, 68, 34, 0.25);
-}
-
-.fund-more-details p {
-  font-size: 14px;
-  padding-left: 10px;
-}
-
-.funding-count img {
-  height: 60px;
-  position: absolute;
-  margin-top: 20px;
 }
 
 .most-populars {
@@ -348,33 +355,10 @@ nav li i {
   flex: 1;
 }
 
-.latest-sec-details h4 {
-  color: #f42;
-}
-
-.latest-sec-details h5 {
-  color: #f42;
-}
-.latest-sec-img img {
-  height: 96px;
-  width: 96px;
-  object-fit: cover;
-  margin-top: 5px;
-}
-
-.pop-latest-sec ul {
-  list-style: disc;
-  padding-left: 20px;
-}
-
-.pop-latest-sec li {
-  border-bottom: 1px solid #e0d4d4;
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
 .lineThrough {
   text-decoration: line-through;
 }
+
 .NoLineThrough {
   text-decoration-style: none;
 }
@@ -409,6 +393,7 @@ nav li i {
   font-size: 13px;
   text-transform: uppercase;
 }
+
 .footerSectionTwo {
   background: #000;
   color: #aaa;
@@ -418,44 +403,92 @@ nav li i {
   padding-bottom: 35px;
 }
 
-.footerSectionTwo > div {
-  display: inline;
+.latestNewsTitles > p:first-of-type {
+  font-size: 14px;
+  font-weight: 700;
 }
 
-.footerSectionTwo b {
-  color: #f42;
+.latestNewsTitles > p:last-of-type {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #aaa;
 }
-.footerSectionTwo img {
-  height: 9px;
+
+.image-sec article > p:last-of-type {
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.6);
+  padding-bottom: 10px;
+}
+
+.dotAter::after {
+  content: "\B7";
 }
 
 /* ==== Media queries ==== */
+
 /* tablets and mobile */
+
 @media (min-width: 768px) {
-  .menuDesktopContainer {
-    width: 100%;
-  }
   nav ul {
     border-top: none;
   }
-  nav li:last-of-type {
-    display: none;
+
+  .latestDeals > div {
+    display: flex;
+    flex-wrap: wrap;
   }
 
-  nav li:nth-child(2) i {
-    display: none;
+  .funding-count ul {
+    display: flex;
+    flex-wrap: wrap;
   }
 
-  .desktop-navigation {
-    display: block;
-    background-color: #000;
-    color: #fff;
-    width: 100%;
-    height: 25px;
-    padding: 5px;
+  .latestImgContainer img {
+    width: 226px;
+    height: 111px;
   }
-  .desktopNavigationSectionTwo {
-    display: block;
+
+  .lat-sec article {
+    flex: 1;
+    padding-bottom: 20px;
+  }
+
+  .funding-section ul {
+    display: flex;
+    margin-top: 24px;
+  }
+
+  .funding-section li {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid red;
+  }
+
+  .po-sec section {
+    flex: 1 1 40%;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .image-1 article {
+    height: 356px;
+  }
+
+  .image-headers > div {
+    flex: 1;
+  }
+
+  .lat-sec > article {
+    max-width: 277px;
+  }
+
+  nav .logo img {
+    margin-top: 28px;
+  }
+
+  .funding-count li {
+    flex: 1 1 25%;
+    margin: 5px;
   }
 
   .desktopNavigationSectionTwo > ul > li {
@@ -477,41 +510,71 @@ nav li i {
     color: #555;
   }
 
-  nav .logo {
-    height: 70px;
-  }
-
-  nav .logo img {
-    margin-top: 28px;
+  .latestDeals > div > article {
+    flex: 1;
+    max-width: 268px;
   }
 
   nav li:nth-child(1) {
     display: inherit;
     width: 100%;
   }
+
+  nav li:last-of-type {
+    display: none;
+  }
+
+  nav li:nth-child(2) i {
+    display: none;
+  }
+
+  nav li:nth-child(2) {
+    margin-left: unset;
+  }
+
+  nav li:nth-child(3) {
+    margin-left: unset;
+  }
+
+  .funding-section .funding-count li {
+    border-right: unset;
+    padding: unset;
+  }
+
+  .menuDesktopContainer {
+    width: 100%;
+  }
+
+  .desktop-navigation {
+    display: block;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 25px;
+    padding: 5px;
+  }
+
+  .desktopNavigationSectionTwo {
+    display: block;
+  }
+
+  nav .logo {
+    height: 70px;
+  }
+
   #firstLiNavTwo {
     width: unset;
     margin-left: 10px;
   }
+
   #firstLiNav {
     width: unset;
     margin-left: 10px;
     color: #fff;
   }
-  nav li:nth-child(2) {
-    margin-left: unset;
-  }
-  nav li:nth-child(3) {
-    margin-left: unset;
-  }
 
   .latestImgContainer {
     display: table-caption;
-  }
-
-  .latestImgContainer img {
-    width: 226px;
-    height: 111px;
   }
 
   .latestNewsTitles {
@@ -524,37 +587,8 @@ nav li i {
     flex-wrap: wrap;
   }
 
-  .lat-sec > article {
-    max-width: 277px;
-  }
-
   .horizontalMargin {
     margin-right: 0;
-  }
-
-  .lat-sec article {
-    flex: 1;
-    padding-bottom: 20px;
-  }
-
-  .funding-section ul {
-    display: flex;
-    margin-top: 24px;
-  }
-
-  .funding-section li {
-    padding-left: 10px;
-    padding-right: 10px;
-    border-right: 1px solid red;
-  }
-
-  .funding-section .funding-count li {
-    border-right: unset;
-    padding: unset;
-  }
-
-  .funding-count li {
-    margin-right: 10px;
   }
 
   .po-sec {
@@ -562,54 +596,24 @@ nav li i {
     flex-wrap: wrap;
   }
 
-  .po-sec section {
-    flex: 1 1 40%;
-    margin-right: 10px;
-    margin-left: 10px;
-  }
   .image-sec {
     height: unset;
   }
 
-  .image-1 article {
-    height: 356px;
-  }
   .image-headers {
     display: flex;
-  }
-  .image-headers > div {
-    flex: 1;
   }
 
   .image-headers > div:first-of-type {
     flex: 2;
   }
-  .latestDeals > div {
-    display: flex;
-    flex-wrap: wrap;
-  }
 
-  .latestDeals > div > article {
-    flex: 1;
-    max-width: 268px;
-  }
-
-  .funding-count ul{
-    display: flex;
-   flex-wrap: wrap;
-  }
-
-  .fund-sub-header{
+  .fund-sub-header {
     padding-left: 60px;
   }
 
-  .funding-count li:nth-child(4){
+  .funding-count li:nth-child(4) {
     display: none;
-  }
-
-  .funding-count li{
-    flex: 1 1 25%;
-    margin: 5px;
   }
 }
 
@@ -629,11 +633,11 @@ nav li i {
     padding-left: 18px;
   }
 
-  .desk-top-logo{
+  .desk-top-logo {
     display: inline;
   }
 
-  .desk-top-logo img{
+  .desk-top-logo img {
     height: 112px;
     position: absolute;
     padding-top: 20px;
@@ -648,7 +652,7 @@ nav li i {
     font-size: 56px;
     font-weight: 700;
     letter-spacing: 0;
-    font-family: Avalon;
+    font-family: Avalon, sans-serif;
     line-height: 1;
   }
 
@@ -664,18 +668,14 @@ nav li i {
     height: 220px;
     padding-top: 8px;
   }
-  .funding-section-header{
-    width: 100%;
-    display: inline-flex;
-  }
-  
 
-  .bigScreenRightMargin{
+  .bigScreenRightMargin {
     margin-left: 11%;
   }
 
-  .latestNews{
-    margin-left: 11%
+  .latestNews {
+    margin-left: 11%;
+    flex: 1;
   }
 
   .lat-sec {
@@ -688,50 +688,46 @@ nav li i {
     flex: 1;
   }
 
-    .po-sec{
-        margin-right: 11%;
-        margin-left: 11%;
-    }
+  .po-sec {
+    margin-right: 11%;
+    margin-left: 11%;
+  }
 
-    .po-sec section {
+  .po-sec section {
     flex: 1 1 25%;
-    max-width: 355px
-    }
+    max-width: 355px;
+  }
 
-    .latestDeals{
-      margin-right: 11%;
-      margin-left: 11%; 
-    }
-    .latestDeals > .latestNews{
-        margin-left: unset;
-    }
+  .latestDeals {
+    margin-right: 11%;
+    margin-left: 11%;
+  }
 
-    .funding-section-header{
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-    }
-    
-    .latestNews{
-      flex: 1;
-    }
+  .funding-section-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
 
-    .funding-section li:last-child{
+  .latestDeals > .latestNews {
+    margin-left: unset;
+  }
 
+  .funding-count li {
+    flex: 1 1 20%;
+  }
+
+  .funding-section ul {
+    margin-right: 11%;
+  }
+
+  .funding-section li:last-child {
     border: unset;
-    }
+  }
 
-    .funding-count li {
-      flex: 1 1 20%;
-    }
-
-    .funding-section ul{
-      margin-right: 11%;
-    }
-
-    .funding-count{
-      margin-left: 10%;
+  .funding-count {
+    margin-left: 10%;
     margin-right: 2%;
-    }
-   
+  }
 }
