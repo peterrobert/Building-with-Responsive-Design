@@ -523,12 +523,44 @@ nav li i {
     border-right: unset;
   }
 
+  .funding-count li{
+    margin-right: 10px;
+  }
+
   .po-sec{
-    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .po-sec section{
-   width: 50%;
+    flex: 1 1 40%;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .image-sec{
+    height: unset;
+  }
+  
+  .image-1  article {
+    height: 356px;
+  }
+  .image-headers{
+    display: flex;
+  }
+  .image-headers > div{
+    flex: 1;
   }
 
+  .image-headers > div:first-of-type{
+    flex: 2;
+  }
+  .latestDeals > div{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .latestDeals > div > article{
+    flex: 1;
+  }
+}
 }
