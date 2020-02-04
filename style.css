@@ -516,6 +516,10 @@ nav li i {
     flex-wrap: wrap;
   }
 
+  .lat-sec > article {
+    max-width: 277px;
+  }
+
   .horizontalMargin {
     margin-right: 0;
   }
@@ -577,6 +581,7 @@ nav li i {
 
   .latestDeals > div > article {
     flex: 1;
+    max-width: 268px;
   }
 }
 
@@ -620,14 +625,45 @@ nav li i {
     height: 220px;
     padding-top: 8px;
   }
+  .funding-section-header{
+    width: 100%;
+    display: inline-flex;
+  }
+  
+
+  .bigScreenRightMargin{
+    margin-left: 11%;
+  }
+
+  .latestNews{
+    margin-left: 11%
+  }
 
   .lat-sec {
-    
-    justify-content: center;
+    margin-left: 11%;
+    margin-right: 11%;
   }
 
   .lat-sec article {
     justify-content: center;
     flex: 1;
   }
+
+    .po-sec{
+        margin-right: 11%;
+        margin-left: 11%;
+    }
+
+    .po-sec section {
+    flex: 1 1 25%;
+    max-width: 355px
+    }
+
+    .latestDeals{
+      margin-right: 11%;
+      margin-left: 11%; 
+    }
+    .latestDeals > .latestNews{
+        margin-left: unset;
+    }
 }
