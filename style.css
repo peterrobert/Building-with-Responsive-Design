@@ -413,6 +413,10 @@ nav li:nth-child(3) i {
   color: #aaa;
 }
 
+.funding-count > ul > li:last-of-type {
+    display: none;
+}
+
 .image-sec article > p:last-of-type {
   font-size: 15px;
   color: hsla(0, 0%, 100%, 0.6);
@@ -453,9 +457,11 @@ nav li:nth-child(3) i {
     padding-bottom: 20px;
   }
 
-  .funding-section ul {
-    display: flex;
+  .funding-count ul {
+    display: grid;
+    grid-template-columns: auto auto auto;
     margin-top: 24px;
+    m
   }
 
   .funding-section li {
@@ -505,6 +511,7 @@ nav li:nth-child(3) i {
     margin-top: 10px;
   }
 
+
   .desktop-navigation > ul > li {
     display: block;
     margin-right: 10px;
@@ -543,6 +550,10 @@ nav li:nth-child(3) i {
   .funding-section .funding-count li {
     border-right: unset;
     padding: unset;
+  }
+
+  .funding-section-header ul {
+    display: inline-flex;
   }
 
   .menuDesktopContainer {
@@ -619,9 +630,6 @@ nav li:nth-child(3) i {
     padding-left: 60px;
   }
 
-  .funding-count li:nth-child(4) {
-    display: none;
-  }
 }
 
 /* landscape tablets and Desktops */
@@ -642,6 +650,12 @@ nav li:nth-child(3) i {
 
   .desk-top-logo {
     display: inline;
+  }
+
+  .bigWrapper{
+    margin: 0 auto;
+    max-width: 1192px;
+    padding: 0 20px;
   }
 
   .desk-top-logo img {
@@ -686,18 +700,20 @@ nav li:nth-child(3) i {
     padding-top: 8px;
   }
 
-  .bigScreenRightMargin {
-    margin-left: 11%;
-  }
-
   .latestNews {
-    margin-left: 11%;
     flex: 1;
   }
 
+  .latestNews {
+    margin-left: 24px;
+  }
+
+  .horizontalMargin {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
   .lat-sec {
-    margin-left: 11%;
-    margin-right: 11%;
     display: grid;
     grid-template-columns: auto auto auto auto;
     justify-content: space-around;
@@ -711,18 +727,12 @@ nav li:nth-child(3) i {
   }
 
   .po-sec {
-    margin-right: 11%;
-    margin-left: 11%;
+    margin-top: 30px;
   }
 
   .po-sec section {
     flex: 1 1 25%;
     max-width: 355px;
-  }
-
-  .latestDeals {
-    margin-right: 11%;
-    margin-left: 11%;
   }
 
   .funding-section-header {
@@ -733,24 +743,20 @@ nav li:nth-child(3) i {
   }
 
   .latestDeals > .latestNews {
-    margin-left: unset;
+    margin-left: 24px;
   }
 
-  .funding-count li {
-    flex: 1 1 20%;
-  }
 
-  .funding-section ul {
-    margin-right: 11%;
+  .funding-count ul {
+    grid-template-columns: auto auto auto auto;
   }
 
   .funding-section li:last-child {
     border: unset;
   }
 
-  .funding-count {
-    margin-left: 10%;
-    margin-right: 2%;
+  .funding-count > ul > li:last-of-type {
+    display: block;
   }
 
   .most-populars{
