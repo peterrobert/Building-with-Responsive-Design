@@ -414,7 +414,7 @@ nav li:nth-child(3) i {
 }
 
 .funding-count > ul > li:last-of-type {
-    display: none;
+  display: none;
 }
 
 .image-sec article > p:last-of-type {
@@ -443,11 +443,6 @@ nav li:nth-child(3) i {
     grid-column-gap: 4px;
   }
 
-  .funding-count ul {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
   .latestImgContainer img {
     width: 247px;
     height: 150px;
@@ -461,7 +456,6 @@ nav li:nth-child(3) i {
     display: grid;
     grid-template-columns: auto auto auto;
     margin-top: 24px;
-    m
   }
 
   .funding-section li {
@@ -510,7 +504,6 @@ nav li:nth-child(3) i {
     margin-right: 10px;
     margin-top: 10px;
   }
-
 
   .desktop-navigation > ul > li {
     display: block;
@@ -568,7 +561,6 @@ nav li:nth-child(3) i {
     height: 25px;
     padding: 5px;
   }
-
 
   .desktopNavigationSectionTwo {
     display: block;
@@ -629,7 +621,6 @@ nav li:nth-child(3) i {
   .fund-sub-header {
     padding-left: 60px;
   }
-
 }
 
 /* landscape tablets and Desktops */
@@ -652,7 +643,7 @@ nav li:nth-child(3) i {
     display: inline;
   }
 
-  .bigWrapper{
+  .bigWrapper {
     margin: 0 auto;
     max-width: 1192px;
     padding: 0 20px;
@@ -668,6 +659,7 @@ nav li:nth-child(3) i {
   .image-1 article {
     height: 454px;
   }
+
   .latestImgContainer img {
     height: 111px;
   }
@@ -704,7 +696,7 @@ nav li:nth-child(3) i {
     flex: 1;
   }
 
-  .latestNews {
+  .latestNewsOne {
     margin-left: 24px;
   }
 
@@ -722,8 +714,8 @@ nav li:nth-child(3) i {
 
   .lat-sec article {
     justify-content: center;
-    flex:  1 1 21%;;
-    width: calc(100% * (1/4) - 10px - 1px);
+    flex: 1 1 21%;
+    width: calc(100% * (1 / 4) - 10px - 1px);
   }
 
   .po-sec {
@@ -746,7 +738,6 @@ nav li:nth-child(3) i {
     margin-left: 24px;
   }
 
-
   .funding-count ul {
     grid-template-columns: auto auto auto auto;
   }
@@ -759,15 +750,10 @@ nav li:nth-child(3) i {
     display: block;
   }
 
-  .most-populars{
+  .most-populars {
     min-height: 300px;
     display: table;
   }
-
-  .most-popular-details{
-
-  }
-
 
   #topSearch {
     position: absolute;
@@ -775,7 +761,7 @@ nav li:nth-child(3) i {
     right: 0;
     top: 20px;
     color: #555;
-    border-left: 1px solid #eee;;
+    border-left: 1px solid #eee;
     padding: 6px;
   }
 }
