@@ -12,7 +12,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/peterrobert/The-new-york-time-clone/5761111f41a2cf125f1748755f50a57ef5dd60cd/index.html)
+[Live Demo Link](https://raw.githack.com/peterrobert/Building-with-Responsive-Design/feature-branch/index.html)
 
 
 ## Getting Started

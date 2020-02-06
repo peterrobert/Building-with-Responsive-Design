@@ -1,0 +1,767 @@
+@font-face {
+  font-family: Shentox;
+  src: url("fonts/Shentox\ W04\ Bold.ttf");
+}
+
+@font-face {
+  font-family: Avalon;
+  src: url("fonts/Avalon_Bold.ttf");
+}
+
+body {
+  margin: 0;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 9999;
+}
+
+main {
+  margin-top: 90px;
+}
+
+nav {
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  margin: 0;
+  word-spacing: 2px;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+.desktop-navigation {
+  display: none;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid #eee;
+}
+
+.latestImgContainer > img {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+}
+
+nav li i {
+  margin-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.funding-section li {
+  margin-bottom: 10px;
+}
+
+.funding-count li {
+  background-color: #ffebe8;
+  height: 254px;
+}
+
+.fund-header h1 {
+  padding-top: 8px;
+  padding-left: 72px;
+}
+
+.fund-more-details i {
+  padding: 12px;
+}
+
+.fund-more-details span {
+  font-size: 13px;
+}
+
+.fund-more-details hr {
+  background-color: rgba(255, 68, 34, 0.25);
+  border-color: rgba(255, 68, 34, 0.25);
+}
+
+.fund-more-details p {
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.funding-count img {
+  height: 60px;
+  position: absolute;
+  margin-top: 20px;
+}
+
+.image-sec article {
+  height: 180px;
+  display: table-cell;
+  vertical-align: bottom;
+  padding: 0 10px 0 10px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.latest-sec-details h4 {
+  color: #f42;
+}
+
+.latest-sec-details h5 {
+  color: #f42;
+}
+
+.latest-sec-img img {
+  height: 96px;
+  width: 96px;
+  object-fit: cover;
+  margin-top: 5px;
+}
+
+.pop-latest-sec ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.pop-latest-sec li {
+  border-bottom: 1px solid #e0d4d4;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.footerSectionTwo > div {
+  display: inline;
+}
+
+.footerSectionTwo b {
+  color: #f42;
+}
+
+.footerSectionTwo img {
+  height: 9px;
+}
+
+nav .logo {
+  background-color: red;
+  height: 48px;
+  width: 106px;
+  text-align: center;
+}
+
+nav .logo img {
+  height: 15px;
+  margin-top: 15px;
+}
+
+nav li:nth-child(2) i {
+  display: block;
+  color: #555;
+}
+
+nav li:nth-child(2) {
+  margin-left: auto;
+  font-size: 1rem;
+  border-left: solid 1px #eee;
+}
+
+nav li:nth-child(3) {
+  font-size: 1rem;
+  border-left: solid 1px #eee;
+  margin-left: 0;
+}
+
+nav li:nth-child(3) i {
+  color: #f42;
+}
+
+.topSubHeading {
+  font-family: Shentox, sans-serif;
+  font-size: 14px;
+}
+
+.image-sec article > p {
+  margin: 2px;
+}
+
+.articleTitle {
+  font-family: Avalon, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.desk-top-logo {
+  display: none;
+}
+
+.desktopNavigationSectionTwo {
+  display: none;
+}
+
+.disnone {
+  display: none;
+}
+
+.top-yellow-indicator {
+  width: 100%;
+  height: 30px;
+  background: #fd3;
+  text-align: center;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.15);
+}
+
+.top-yellow-indicator a {
+  line-height: 30px;
+  font-size: 10px;
+  color: #000;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.image-headers {
+  width: 100%;
+}
+
+.latestNews {
+  color: #f42;
+  font-weight: 700;
+  font-family: inherit;
+}
+
+.image-sec {
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 180px;
+  box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.5);
+}
+
+.latestNewsTitles {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.latestImgContainer {
+  display: inline-flex;
+}
+
+.horizontalMargin {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.image-1 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/ripple-xrp-petition-change-org-cryptocurrency-hard-fork-bitcoin-796x448.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image-2 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/dfghjjh-796x448.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image-3 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/bluecity-bye-bye-drivenow-daimler-closing-costs-ev-car-share-796x447.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.funding-section {
+  padding-bottom: 20px;
+}
+
+.fund-header {
+  background-color: #f42;
+  height: 43px;
+  color: #fff;
+  text-align: left;
+}
+
+.funding-section ul {
+  padding-left: 0;
+}
+
+.funding-section ul a {
+  color: #f42;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-family: Avalon, sans-serif;
+}
+
+.fund-sub-header {
+  color: #000;
+  padding-left: 70px;
+  text-align: left;
+}
+
+.fund-sub-header h5 {
+  margin-top: -14px;
+  margin-right: 92px;
+  color: #b1aaaa;
+  font-weight: 300;
+}
+
+.fund-more-details {
+  background-color: #fffaf8;
+  text-align: left;
+  height: 146px;
+}
+
+.most-populars {
+  background-image: url("images/1.jpg");
+  height: 200px;
+  box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.5);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.most-popular-details {
+  display: table-cell;
+  vertical-align: bottom;
+  padding: 0 10px 0 10px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.latest-sec {
+  display: flex;
+  background-color: #fff4f2;
+  height: 100px;
+}
+
+.latest-sec-details {
+  flex: 4;
+}
+
+.latest-sec-img {
+  flex: 1;
+}
+
+.lineThrough {
+  text-decoration: line-through;
+}
+
+.NoLineThrough {
+  text-decoration-style: none;
+}
+
+.footerSectionOne {
+  background-color: #131313;
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.footerSectionOne > ul {
+  display: inline-flex;
+  padding: 0;
+}
+
+.footerSocialinks > li > a {
+  text-decoration: none;
+  color: #fff;
+  margin: 10px;
+  border-radius: 50%;
+  background: #333;
+  height: 40px;
+  width: 40px;
+  padding: 10px;
+}
+
+.footerMenu > li > a {
+  text-decoration: none;
+  margin: 5px;
+  color: #aaa;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.footerSectionTwo {
+  background: #000;
+  color: #aaa;
+  font-size: 13px;
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.latestNewsTitles > p:first-of-type {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.latestNewsTitles > p:last-of-type {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #aaa;
+}
+
+.funding-count > ul > li:last-of-type {
+  display: none;
+}
+
+.image-sec article > p:last-of-type {
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.6);
+  padding-bottom: 10px;
+}
+
+.dotAter::after {
+  content: "\B7";
+}
+
+/* ==== Media queries ==== */
+
+/* tablets and mobile */
+
+@media (min-width: 768px) {
+  nav ul {
+    border-top: none;
+  }
+
+  .latestDeals > div {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    grid-column-gap: 4px;
+  }
+
+  .latestImgContainer img {
+    width: 247px;
+    height: 150px;
+  }
+
+  .lat-sec article {
+    padding-bottom: 20px;
+  }
+
+  .funding-count ul {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 24px;
+  }
+
+  .funding-section li {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid red;
+  }
+
+  .po-sec section {
+    flex: 1 1 40%;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .image-1 article {
+    height: 356px;
+  }
+
+  .image-headers > div {
+    flex: 1;
+  }
+
+  .lat-sec > article {
+    max-width: 277px;
+  }
+
+  .footerSectionTwo > div {
+    display: inline-flex;
+  }
+
+  nav .logo img {
+    margin-top: 28px;
+  }
+
+  .funding-count li {
+    flex: 1 1 25%;
+    margin: 5px;
+  }
+
+  .desktopNavigationSectionTwo > ul > li {
+    display: block;
+    font-family: Shentox, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #aaa;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+
+  .desktop-navigation > ul > li {
+    display: block;
+    margin-right: 10px;
+    border-left: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #555;
+  }
+
+  .latestDeals > div > article {
+    flex: 1;
+    max-width: 268px;
+  }
+
+  nav li:nth-child(1) {
+    display: inherit;
+    width: 100%;
+  }
+
+  nav li:last-of-type {
+    display: none;
+  }
+
+  nav li:nth-child(2) i {
+    display: none;
+  }
+
+  nav li:nth-child(2) {
+    margin-left: unset;
+  }
+
+  nav li:nth-child(3) {
+    margin-left: unset;
+  }
+
+  .funding-section .funding-count li {
+    border-right: unset;
+    padding: unset;
+  }
+
+  .funding-section-header ul {
+    display: inline-flex;
+  }
+
+  .menuDesktopContainer {
+    width: 100%;
+  }
+
+  .desktop-navigation {
+    display: block;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 25px;
+    padding: 5px;
+  }
+
+  .desktopNavigationSectionTwo {
+    display: block;
+  }
+
+  nav .logo {
+    height: 70px;
+  }
+
+  #firstLiNavTwo {
+    width: unset;
+    margin-left: 10px;
+  }
+
+  #firstLiNav {
+    width: unset;
+    margin-left: 10px;
+    color: #fff;
+  }
+
+  .latestImgContainer {
+    display: table-caption;
+  }
+
+  .latestNewsTitles {
+    margin: unset;
+    float: left;
+  }
+
+  .lat-sec {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 4px;
+  }
+
+  .horizontalMargin {
+    margin-right: 0;
+  }
+
+  .po-sec {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .image-sec {
+    height: unset;
+  }
+
+  .image-headers {
+    display: flex;
+  }
+
+  .image-headers > div:first-of-type {
+    flex: 2;
+  }
+
+  .fund-sub-header {
+    padding-left: 60px;
+  }
+}
+
+/* landscape tablets and Desktops */
+
+@media (min-width: 1023px) {
+  nav .logo {
+    display: none;
+  }
+
+  #firstLiNavTwo {
+    margin-left: 18px;
+  }
+
+  .top-yellow-indicator {
+    text-align: unset;
+    padding-left: 18px;
+  }
+
+  .desk-top-logo {
+    display: inline;
+  }
+
+  .bigWrapper {
+    margin: 0 auto;
+    max-width: 1192px;
+    padding: 0 20px;
+  }
+
+  .desk-top-logo img {
+    height: 112px;
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+
+  .image-1 article {
+    height: 454px;
+  }
+
+  .latestImgContainer img {
+    height: 111px;
+  }
+
+  .image-1 .articleTitle {
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: 0;
+    font-family: Avalon, sans-serif;
+    line-height: 1;
+  }
+
+  .image-headers {
+    padding-top: 6px;
+  }
+
+  .image-2 article {
+    height: 220px;
+  }
+
+  .latestDeals > div {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    grid-column-gap: 4px;
+  }
+
+  .image-3 article {
+    height: 220px;
+    padding-top: 8px;
+  }
+
+  .latestNews {
+    flex: 1;
+  }
+
+  .latestNewsOne {
+    margin-left: 24px;
+  }
+
+  .horizontalMargin {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .lat-sec {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    grid-column-gap: 4px;
+  }
+
+  .lat-sec article {
+    justify-content: center;
+    flex: 1 1 21%;
+    width: calc(100% * (1 / 4) - 10px - 1px);
+  }
+
+  .po-sec {
+    margin-top: 30px;
+  }
+
+  .po-sec section {
+    flex: 1 1 25%;
+    max-width: 355px;
+  }
+
+  .funding-section-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .latestDeals > .latestNews {
+    margin-left: 24px;
+  }
+
+  .funding-count ul {
+    grid-template-columns: auto auto auto auto;
+  }
+
+  .funding-section li:last-child {
+    border: unset;
+  }
+
+  .funding-count > ul > li:last-of-type {
+    display: block;
+  }
+
+  .most-populars {
+    min-height: 300px;
+    display: table;
+  }
+
+  #topSearch {
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 20px;
+    color: #555;
+    border-left: 1px solid #eee;
+    padding: 6px;
+  }
+}
