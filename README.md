@@ -12,7 +12,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/peterrobert/Building-with-Responsive-Design/236c9f8186f9676f2b45c60559b96ce8ea0150c9/index.html)
+[Live Demo Link](https://raw.githack.com/peterrobert/Building-with-Responsive-Design/feature-branch/index.html)
 
 
 ## Getting Started
